@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Xiaomi_Kernel_lolz-KSU-sdm439",
       "repo": "https://github.com/chamila76624/lolz_kernel_redmi8",
-      "branch": "V24_test",
+      "branch": "V23.1",
       "device": "olive",
       "defconfig": "lolz_olive_defconfig"
     },
