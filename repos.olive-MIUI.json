@@ -10,29 +10,29 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
-        "name": "proton-clang",
+        "repo": "https://gitlab.com/Jprimero15/lolz_clang",
+        "branch": "main",
+        "name": "lolz-clang",
         "binPath": ["./bin"]
       }
     ],
     "params": {
       "ARCH": "arm64",
-      "CC": "proton-clang/bin/clang",
+      "CC": "lolz-clang/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-        "AR": "proton-clang/bin/llvm-ar",
-        "NM": "proton-clang/bin/llvm-nm",
-        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
-        "OBJDUMP": "proton-clang/bin/llvm-objdump",
-        "READELF": "proton-clang/bin/llvm-readelf",
-        "OBJSIZE": "proton-clang/bin/llvm-size",
-        "STRIP": "proton-clang/bin/llvm-strip",
-        "HOSTCC": "proton-clang/bin/clang",
-        "HOSTCXX": "proton-clang/bin/clang++",
-        "LLVM_AR": "proton-clang/bin/llvm-ar",
-        "LLVM_DIS": "proton-clang/bin/llvm-dis"
+        "CROSS_COMPILE": "lolz-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "lolz-clang/bin/arm-linux-gnueabi-",
+        "AR": "lolz-clang/bin/llvm-ar",
+        "NM": "lolz-clang/bin/llvm-nm",
+        "OBJCOPY": "lolz-clang/bin/llvm-objcopy",
+        "OBJDUMP": "lolz-clang/bin/llvm-objdump",
+        "READELF": "lolz-clang/bin/llvm-readelf",
+        "OBJSIZE": "lolz-clang/bin/llvm-size",
+        "STRIP": "lolz-clang/bin/llvm-strip",
+        "HOSTCC": "lolz-clang/bin/clang",
+        "HOSTCXX": "lolz-clang/bin/clang++",
+        "LLVM_AR": "lolz-clang/bin/llvm-ar",
+        "LLVM_DIS": "lolz-clang/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
