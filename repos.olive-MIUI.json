@@ -10,29 +10,29 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://gitlab.com/Jprimero15/lolz_clang",
-        "branch": "main",
-        "name": "lolz-clang",
+        "repo": "https://github.com/xiangfeidexiaohuo/Snapdragon-LLVM/",
+        "branch": "10.0.9",
+        "name": "snapdragon-clang",
         "binPath": ["./bin"]
       }
     ],
     "params": {
       "ARCH": "arm64",
-      "CC": "lolz-clang/bin/clang",
+      "CC": "snapdragon-clang/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "lolz-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "lolz-clang/bin/arm-linux-gnueabi-",
-        "AR": "lolz-clang/bin/llvm-ar",
-        "NM": "lolz-clang/bin/llvm-nm",
-        "OBJCOPY": "lolz-clang/bin/llvm-objcopy",
-        "OBJDUMP": "lolz-clang/bin/llvm-objdump",
-        "READELF": "lolz-clang/bin/llvm-readelf",
-        "OBJSIZE": "lolz-clang/bin/llvm-size",
-        "STRIP": "lolz-clang/bin/llvm-strip",
-        "HOSTCC": "lolz-clang/bin/clang",
-        "HOSTCXX": "lolz-clang/bin/clang++",
-        "LLVM_AR": "lolz-clang/bin/llvm-ar",
-        "LLVM_DIS": "lolz-clang/bin/llvm-dis"
+        "CROSS_COMPILE": "snapdragon-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "snapdragon-clag/bin/arm-linux-gnueabi-",
+        "AR": "snapdragon-clang/bin/llvm-ar",
+        "NM": "snapdragon-clang/bin/llvm-nm",
+        "OBJCOPY": "snapdragon-clang/bin/llvm-objcopy",
+        "OBJDUMP": "snapdragon-clang/bin/llvm-objdump",
+        "READELF": "snapdragon-clang/bin/llvm-readelf",
+        "OBJSIZE": "snapdragon-clang/bin/llvm-size",
+        "STRIP": "snapdragon-clang/bin/llvm-strip",
+        "HOSTCC": "snapdragon-clang/bin/clang",
+        "HOSTCXX": "snapdragon-clang/bin/clang++",
+        "LLVM_AR": "snapdragon-clang/bin/llvm-ar",
+        "LLVM_DIS": "snapdragon-clang/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
